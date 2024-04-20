@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebGL Utilities</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      canvas {
+        display: block;
+      }
+      #container {
+        width: 100vw;
+        height: 100vh;
+      }
+      .title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        position: absolute;
+        bottom: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">WebGL - Utils</h1>
+    <div id="container"></div>
+    <script type="module" src="webgl/app.js"></script>
+  </body>
+</html>

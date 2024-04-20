@@ -1,0 +1,10 @@
+{
+  "texture-1" : {
+    "type": "texture",
+    "url": "/assets/tex1.jpg"
+  },
+  "texture-2" : {
+    "type": "texture",
+    "url": "/assets/tex2.jpg"
+  }
+}
