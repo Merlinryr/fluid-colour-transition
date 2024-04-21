@@ -38,7 +38,7 @@ void main() {
     vec2 newUv = (uv - vec2(0.5)*uResolution + vec2(0.5));
     vec2 uvDivided = fract(newUv*vec2(uCurtains, 0.0));
     vec2 uvBg = vUv;
-    vec2 dispUv = newUv + rotate(3.1415926/4.)*uvDivided*0.3*uProgress; // Displacing UVs for grid
+    vec2 dispUv = newUv + rotate(3.1415926/4.)*uvDivided*uProgress; // Displacing UVs for grid
     uv *= uScale;
 
     // //////////////
@@ -67,7 +67,7 @@ void main() {
     vec2 center = vec2(0.5);
     float dist = distance(vUv, center);
     float thresh = 0.5 + noise(vec3(uv, t));
-    float blur = .5;
+    float blur = .7;
     float smoothEdges = smoothstep(thresh, thresh + blur, dist); // Preventing gradient in the center
 
     // //////////////
