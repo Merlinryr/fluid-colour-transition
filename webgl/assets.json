@@ -1,10 +1,18 @@
 {
-  "texture-1" : {
+  "texture1" : {
     "type": "texture",
-    "url": "/assets/tex1.jpg"
+    "url": "/assets/circle.png"
   },
-  "texture-2" : {
+  "texture2" : {
     "type": "texture",
-    "url": "/assets/tex2.jpg"
+    "url": "/assets/gradientRed.png"
+  },
+  "transition" : {
+    "type": "texture",
+    "url": "/assets/transition.png"
+  },
+  "background" : {
+    "type": "texture",
+    "url": "/assets/bg.jpg"
   }
 }
